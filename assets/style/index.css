@@ -17,7 +17,8 @@ body{
 section{
     background: url(../images/board.jpg);
     background-position: center;
-    background-size: 80%;
+    height: 100%;
+    
     background-repeat: no-repeat;
 }
 button{
