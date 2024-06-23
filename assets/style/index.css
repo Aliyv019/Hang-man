@@ -103,9 +103,10 @@ p{
 
 }
 .guessed{
+    border-color: black;
     background: none;
     color: white;
     font-size: 30px;
     font-family: 'Patrick Hand', cursive;
-    border-color: black;
+    
 }
