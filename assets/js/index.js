@@ -20,7 +20,7 @@ const cities = [
     'Aghdara',
     'Babek',
     'Baku',
-    'Balakən',
+    'Balaken',
     'Barda',
     'Beylagan',
     'Bilasuvar',
