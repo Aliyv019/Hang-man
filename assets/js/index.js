@@ -124,6 +124,11 @@ function game(){
                         if(letter.toLowerCase()==event.key){
                             word.querySelectorAll('li')[index].innerText=letter
                             word.querySelectorAll('li')[index].classList.add('guessed')
+                            // word.querySelectorAll('li')[index].style.borderColor="black"
+                            // word.querySelectorAll('li')[index].style.background='none'
+                            // word.querySelectorAll('li')[index].style.color='white'
+                            // word.querySelectorAll('li')[index].style.fontsize='30px'
+                            // word.querySelectorAll('li')[index].style.fontFamily='Patrick Hand'
                         }
                     })
                 }
