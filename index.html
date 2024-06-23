@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="./assets/style/index.css">
+</head>
+<body>
+    <main>
+        <section class="welcome_page">
+            <button>Start</button>
+        </section>
+        <section class="game_page">
+            <div class="head">
+                <h2>The Hangman</h2>
+                <p>Score: <span class="score">0</span></p>
+            </div>
+            <p class="text">Cities of Azerbaijan</p>
+            <div class="game">
+                <div class="guess">
+                <p>Guess the word:</p>
+                <ul class="word">
+                    
+                </ul>
+            </div>
+                <img src="./assets/images/hang-man1.png" alt="">
+            </div>
+        </section>
+        <section class="game_over">
+            <p>Game Over</p>
+            <p>Your Score: <span class="score" id="score">0</span></p>
+            <button>Play Again</button>
+        </section>
+    </main>
+    <audio id="bgmusic" src="./assets/music/bg-music.mp3" loop style="visibility: hidden;"></audio>
+    <audio id="gameover" src="./assets/music/game-over.mp3" style="visibility: hidden;"></audio>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

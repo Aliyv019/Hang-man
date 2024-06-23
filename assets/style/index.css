@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+.welcome_page{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    background: black;
+}
+section{
+    background: url(../images/board.jpg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+button{
+    font-family: 'Patrick Hand', cursive;
+    background: none;
+    border: none;
+    font-size: 60px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.game_page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    display: none;
+}
+.head h2{
+    background: none;
+    color: white;
+    font-size: 60px;
+    font-family: 'Patrick Hand', cursive;
+}
+.score{
+    background: none;
+    color: white;
+    font-size: 60px;
+    font-family: 'Patrick Hand', cursive;
+}
+p{
+    background: none;
+    color: white;
+    font-size: 60px;
+    font-family: 'Patrick Hand', cursive;
+}
+.head{
+    background: none;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#letters{
+    margin-left: 10px;
+    letter-spacing: 15px;
+    font-size: 34px;
+    color: whitesmoke;
+    font-weight: bolder;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.game_page img{
+    width: 50%;
+}
+.game{
+    display: flex;
+}
+.game_over{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 300px;
+    height: 100vh;
+    display: none;
+    
+}
+.word{
+    display: flex;
+    margin-top: 20px;
+    list-style: none;
+    justify-content: space-between;
+}
+.letter{
+    width: 30px;
+    height: 50px;
+    border-bottom: 3px solid;
+
+}
